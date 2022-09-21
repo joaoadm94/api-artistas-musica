@@ -12,9 +12,27 @@ A API servirá endpoints para cadastro e consulta de informações sobre artista
 
 ## Funcionalidades
 
-A API possibilitará manipulação de cadastro, consulta, atualização e remoção de dados sobre:
-- Artistas (ficha técnica completa, imagens, discografia...);
-- Lançamentos musicais (ficha técnica de álbuns, EPs, singles...);
-- Letras de músicas;
+A API terá as seguintes funcionalidades:
+- Artistas 
+  - Cadastro de dados dos artistas - nome, tipo (solo, conjunto), cidade de origem, país de origem, gêneros, período em atividade, integrantes, biografia, website).
+  - Listagem dos artistas 
+    - ordenação por ordem alfabética e inversa
+    - paginação de resultados
+    - filtro de pesquisa por atributos do artista.
+  - Consulta aos dados do cadastro;
+  - Cadastro de discografia;
+- Lançamentos musicais 
+  - Cadastro de lançamentos - nome, tipo (álbum, single, EP), data de lançamento, listagem de músicas;
+  - Cadastro de letras de músicas ;
+  - Listagem dos lançamentos
+    - ordenação
+    - paginação de resultados
+    - filtro de pesquisa por atributos do lançamento
+- Usuários
+  - Cadastro de usuários
+    - Dados: nome, email (validar), data de nascimento, nickname (validar se já existe), endereço.
+      - Validação de cadastro repetido pelo email;
+      - Validação do formato do email e data de nascimento
+  - É necessário ter um usuário cadastrado para fazer alterações nos dados de artistas e lançamentos.
 
 ## Diagrama de classes
