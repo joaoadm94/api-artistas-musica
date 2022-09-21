@@ -34,5 +34,9 @@ A API terá as seguintes funcionalidades:
       - Validação de cadastro repetido pelo email;
       - Validação do formato do email e data de nascimento
   - É necessário ter um usuário cadastrado para fazer alterações nos dados de artistas e lançamentos.
+  - É possível criar listas de artistas
+  - É possível criar listas de lançamentos
+  - É possível criar listas de músicas
+  - É possível acessar as listas de outros usuários
 
 ## Diagrama de classes
