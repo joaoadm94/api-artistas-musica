@@ -15,6 +15,6 @@ public class Pais {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int paisId;
+    private Long id;
     private String nome;
 }

@@ -16,11 +16,9 @@ import br.com.ada.banco.artistasmusica.service.ArtistaService;
 public class ArtistaServiceImpl implements ArtistaService {
 
     final ArtistaRepository artistaRepository;
-    final ArtistaService artistaService;
 
-    public ArtistaServiceImpl(ArtistaRepository artistaRepository, ArtistaService artistaService) {
+    public ArtistaServiceImpl(ArtistaRepository artistaRepository) {
         this.artistaRepository = artistaRepository;
-        this.artistaService = artistaService;
     }
 
     @Override

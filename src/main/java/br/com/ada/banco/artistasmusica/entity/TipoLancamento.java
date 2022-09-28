@@ -15,7 +15,7 @@ public class TipoLancamento {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long tipoLancamentoId;
+    private Long id;
     private String nome;
     private String descricao;
 }

@@ -15,7 +15,7 @@ public class TipoArtista {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long tipoArtistaId;
+    private Long id;
     private String nome;
     private String descricao;
 }

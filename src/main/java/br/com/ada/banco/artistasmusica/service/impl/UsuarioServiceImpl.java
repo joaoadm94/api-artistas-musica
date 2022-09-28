@@ -10,11 +10,9 @@ import br.com.ada.banco.artistasmusica.service.UsuarioService;
 public class UsuarioServiceImpl implements UsuarioService {
 
     final UsuarioRepository usuarioRepository;
-    final UsuarioService usuarioService;
 
-    public UsuarioServiceImpl(UsuarioRepository usuarioRepository, UsuarioService usuarioService) {
+    public UsuarioServiceImpl(UsuarioRepository usuarioRepository) {
         this.usuarioRepository = usuarioRepository;
-        this.usuarioService = usuarioService;
     }
 
     @Override
