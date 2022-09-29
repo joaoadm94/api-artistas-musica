@@ -1,5 +1,15 @@
 # API de artistas musicais
 
+## Updates
+
+26/09: Controller das entidades Artista e Usuario;
+
+27/09: todas as entidades básicas definidas. Criação dos Repository e Service para entidades Artista e Usuario.
+
+28/09: build com sucesso pela primeira vez. Implementação do banco de dados em H2. Entidades anotadas, de forma que o banco de dados é criado automaticamente.
+
+29:09: consumo da API do IBGE para preenchimento da tabela País.
+
 ## Projeto Ada/Let's Code - Turma Marcianos BB
 
 Projeto do Módulo "Programação Web II": API com arquitetura RESTful utilizando Spring Boot.
