@@ -23,6 +23,11 @@ public class UsuarioController {
     public UsuarioController(UsuarioService usuarioService) {
         this.usuarioService = usuarioService;
     }
+
+    @GetMapping
+    public ResponseEntity<Usuario> get(){
+        return ResponseEntity.ok(new Usuario());
+    }
     
     @PostMapping
     public ResponseEntity<Usuario> save(@Valid @RequestBody Usuario usuario) {
